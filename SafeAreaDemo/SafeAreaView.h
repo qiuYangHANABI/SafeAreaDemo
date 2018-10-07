@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SafeAreaView.h
 //  SafeAreaDemo
 //
 //  Created by 黃秋陽 on 2018/9/19.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface SafeAreaView : UIView
 
 @end
-

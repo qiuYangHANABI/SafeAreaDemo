@@ -15,6 +15,7 @@
 		CE52C0BA2151E9E00076D2D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE52C0B92151E9E00076D2D3 /* main.m */; };
 		CE52C0C42151E9E00076D2D3 /* SafeAreaDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE52C0C32151E9E00076D2D3 /* SafeAreaDemoTests.m */; };
 		CE52C0CF2151E9E00076D2D3 /* SafeAreaDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE52C0CE2151E9E00076D2D3 /* SafeAreaDemoUITests.m */; };
+		CE52C0DE21521BEF0076D2D3 /* SafeAreaView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE52C0DD21521BEF0076D2D3 /* SafeAreaView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CE52C0CA2151E9E00076D2D3 /* SafeAreaDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SafeAreaDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE52C0CE2151E9E00076D2D3 /* SafeAreaDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeAreaDemoUITests.m; sourceTree = "<group>"; };
 		CE52C0D02151E9E00076D2D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE52C0DC21521BEF0076D2D3 /* SafeAreaView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SafeAreaView.h; sourceTree = "<group>"; };
+		CE52C0DD21521BEF0076D2D3 /* SafeAreaView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SafeAreaView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				CE52C0AD2151E9DD0076D2D3 /* ViewController.h */,
 				CE52C0AE2151E9DD0076D2D3 /* ViewController.m */,
 				CE52C0B02151E9DD0076D2D3 /* Main.storyboard */,
+				CE52C0DC21521BEF0076D2D3 /* SafeAreaView.h */,
+				CE52C0DD21521BEF0076D2D3 /* SafeAreaView.m */,
 				CE52C0B32151E9E00076D2D3 /* Assets.xcassets */,
 				CE52C0B52151E9E00076D2D3 /* LaunchScreen.storyboard */,
 				CE52C0B82151E9E00076D2D3 /* Info.plist */,
@@ -262,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE52C0DE21521BEF0076D2D3 /* SafeAreaView.m in Sources */,
 				CE52C0AF2151E9DD0076D2D3 /* ViewController.m in Sources */,
 				CE52C0BA2151E9E00076D2D3 /* main.m in Sources */,
 				CE52C0AC2151E9DD0076D2D3 /* AppDelegate.m in Sources */,
